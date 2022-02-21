@@ -1,0 +1,215 @@
+*{margin:0; padding:0;}
+body{color:#333;
+     font-family:arial;
+	 font-height:25px; 
+	 font-size:15px;
+	 }
+h1,h2,h3,h4,h5,h6{
+	font-family:arial-black;
+}
+img{max-width:100%;}
+
+#navber{
+	width:100%;
+	height:100px;
+	background:white;    
+	box-shadow: 0px 20px 12px 0px #333;
+}
+#logo i{
+	    color: red;
+    font-size: 110px;
+    margin-top: -5px;
+}
+div#logo_content {
+    width: 1170px;
+    margin: auto;
+}
+#logo{
+	width:100px;
+	font-size:60px;
+	float:left;
+}
+#menu_inner{
+	
+}
+#main_menu li{
+	display:inline-block;
+	padding:20px;
+	
+}
+#main_menu li a:hover{
+	border-bottom:2px solid red;
+	transition:2s;
+	text-transform:uppercase;
+}
+#main_menu li a{
+	text-decoration:none;
+	color:red;
+}
+#main_menu{
+    margin-top:18px;
+	float:right;
+	font-size:20px;
+	list-style:none;
+}
+#services_blok{
+	background:#ffffff;
+	width:354px;
+	padding:15px;
+	overflow:hidden;
+	display: inline-block;
+	border: 1px solid #ddd;
+}
+#services_title{
+	text-align:center;
+	color:white;
+	font-size: 50px;
+	margin-bottom:40px;
+}
+#right_content{
+	width:250px;
+	float:right;
+}
+#left_content{
+	width:70px;
+	font-size:50px;
+	float:left;
+	margin-top:13px;
+	color:orange;
+}
+#allblocks{
+	width: 1170px;
+	margin: auto;
+	display: flow-root;
+}
+#right_content,#left_content{
+	display-inline:block;
+}
+#right_content h2{
+	margin-bottom:10px;
+	font-size:18px;
+}
+#right_content p{
+	font-size:13px;
+}
+#services_blok{
+	background:#ffffff;
+	width:335px;
+	padding:15px;
+	overflow:hidden;
+	display: inline-block;
+	border: 1px solid #ddd;
+	border-radius:3px;
+	margin:10px;
+	animation-name: XoomInMyBoxes;
+	animation-duration: 2s;
+}
+#services_blok:hover{
+	background:transparent;
+	color:white;
+	cursor:pointer;	
+	transition:all 1s;
+	transform:translateY(-16px)
+}
+@keyframes XoomInMyBoxes{
+	from{transform:scale(0.1)}
+	to{transform:scale(1)}
+}
+#services_blok:hover i{
+	color:white;
+	
+}
+#right_content:hover h2{
+	transform:translateX(100px);
+	transition:0.8s;
+}
+#services_title{
+	text-align:center;
+}
+#right_content{
+	width:250px;
+	float:right;
+}
+#left_content{
+	width:70px;
+	font-size:50px;
+	float:left;
+	margin-top:13px;
+	color:#ff1800;
+}
+#allblocks{
+	width: 1170px;
+	margin: auto;
+}
+#right_content,#left_content{
+	display-inline:block;
+}
+#right_content h2{
+	margin-bottom:10px;
+	font-size:18px;
+	transition:1s;
+}
+#right_content p{
+	font-size:13px;
+}
+#service_section{
+	padding:50px 0px;
+	background:#0b1a27e0;
+}
+#services_title h1 span,#services_text span{
+	color: #ff1800;
+}
+#services_text{
+	text-align:center;
+	color:black;
+	font-size:50px;
+	font-family:arial-black;
+}
+#about_iamge{
+	width:400px;
+	border:1px solid #ddd;
+	background:white;
+	box-shadow:-1px 16px 35px -22px black;
+}
+#about_iamge:hover{
+	background:transparent;
+	cursor:pointer;	
+	transition:all 1s;
+	transform:translateX(-100px);
+	transition:2s;
+}
+#about_right{
+	width:700px;
+	float:right;
+}
+
+#about_right h2{
+	margin-bottom:25px;
+	padding-bottom:10px;
+	border-bottom:2px solid #ddd;
+}
+#about_right p{
+	font-size:16px;
+	color:#888;
+}
+#about_right,#about_iamge{
+	display:inline-block;
+}
+#aboutimage_right{
+	margin-top:40px;
+}
+#services_text h1,#services_text h1 span{
+	margin-top:30px;
+}
+#about_content_all{
+	padding:30px 0px;
+}
+footer{ 
+	padding:50px;
+	background:#333;
+	color:white;
+	
+}
+footer strong{
+	text-align:center:
+}
